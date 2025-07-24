@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Resmi SMK Contoh Kejuruan</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f2f5; /* Light gray background */
+        }
+        .container {
+            max-width: 1200px;
+        }
+        /* Custom scrollbar for better aesthetics */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <!-- Header Section -->
+    <header class="bg-gradient-to-r from-blue-600 to-indigo-700 text-white p-4 shadow-lg">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+            <div class="flex items-center mb-4 md:mb-0">
+                <!-- Placeholder for School Logo -->
+                <img src="https://placehold.co/60x60/ffffff/000000?text=SMK" alt="Logo SMK" class="rounded-full mr-3 border-2 border-white">
+                <h1 class="text-3xl font-bold">SMK Contoh Kejuruan</h1>
+            </div>
+            <!-- Navigation Menu -->
+            <nav>
+                <ul class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-lg font-medium">
+                    <li><a href="#beranda" class="hover:text-blue-200 transition duration-300 ease-in-out py-2 px-3 rounded-md hover:bg-blue-700">Beranda</a></li>
+                    <li><a href="#tentang" class="hover:text-blue-200 transition duration-300 ease-in-out py-2 px-3 rounded-md hover:bg-blue-700">Tentang Kami</a></li>
+                    <li><a href="#program" class="hover:text-blue-200 transition duration-300 ease-in-out py-2 px-3 rounded-md hover:bg-blue-700">Program Keahlian</a></li>
+                    <li><a href="#fasilitas" class="hover:text-blue-200 transition duration-300 ease-in-out py-2 px-3 rounded-md hover:bg-blue-700">Fasilitas</a></li>
+                    <li><a href="#berita" class="hover:text-blue-200 transition duration-300 ease-in-out py-2 px-3 rounded-md hover:bg-blue-700">Berita & Acara</a></li>
+                    <li><a href="#kontak" class="hover:text-blue-200 transition duration-300 ease-in-out py-2 px-3 rounded-md hover:bg-blue-700">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto my-8 p-4">
+
+        <!-- Hero Section -->
+        <section id="beranda" class="bg-white rounded-lg shadow-xl p-8 mb-12 text-center transform transition duration-500 hover:scale-105">
+            <h2 class="text-5xl font-extrabold text-blue-700 mb-6 leading-tight">Membentuk Generasi Unggul dan Berkompeten</h2>
+            <p class="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">Selamat datang di SMK Contoh Kejuruan, tempat di mana bakat diasah dan masa depan cerah dimulai. Kami berkomitmen untuk menyediakan pendidikan kejuruan terbaik.</p>
+            <a href="#program" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full text-lg shadow-lg hover:shadow-xl transition duration-300 ease-in-out transform hover:-translate-y-1">Lihat Program Kami</a>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="tentang" class="bg-white rounded-lg shadow-md p-8 mb-12">
+            <h3 class="text-4xl font-bold text-gray-800 mb-6 text-center">Tentang Kami</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <div>
+                    <p class="text-lg leading-relaxed mb-4">SMK Contoh Kejuruan didirikan dengan visi untuk menjadi pusat pendidikan kejuruan terkemuka yang menghasilkan lulusan siap kerja dan berdaya saing global. Kami percaya bahwa setiap siswa memiliki potensi unik yang perlu dikembangkan.</p>
+                    <p class="text-lg leading-relaxed">Misi kami adalah menyediakan kurikulum yang relevan dengan industri, fasilitas modern, dan tenaga pengajar yang profesional untuk membekali siswa dengan keterampilan praktis dan pengetahuan teoritis yang mendalam.</p>
+                </div>
+                <div class="flex justify-center">
+                    <img src="https://placehold.co/500x300/e0e0e0/333333?text=Gedung+Sekolah" alt="Gedung Sekolah SMK" class="rounded-lg shadow-lg max-w-full h-auto">
+                </div>
+            </div>
+        </section>
+
+        <!-- Programs Section -->
+        <section id="program" class="bg-white rounded-lg shadow-md p-8 mb-12">
+            <h3 class="text-4xl font-bold text-gray-800 mb-8 text-center">Program Keahlian Kami</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Program Card 1 -->
+                <div class="bg-blue-50 p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 ease-in-out transform hover:-translate-y-2 border border-blue-200">
+                    <h4 class="text-2xl font-semibold text-blue-700 mb-3">Teknik Komputer & Jaringan (TKJ)</h4>
+                    <p class="text-gray-700 leading-relaxed">Mempelajari instalasi jaringan, perakitan komputer, konfigurasi perangkat jaringan, dan keamanan siber. Siap menjadi network administrator atau teknisi IT.</p>
+                    <ul class="list-disc list-inside text-gray-600 mt-4">
+                        <li>Jaringan Komputer</li>
+                        <li>Sistem Operasi</li>
+                        <li>Keamanan Jaringan</li>
+                    </ul>
+                </div>
+                <!-- Program Card 2 -->
+                <div class="bg-green-50 p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 ease-in-out transform hover:-translate-y-2 border border-green-200">
+                    <h4 class="text-2xl font-semibold text-green-700 mb-3">Rekayasa Perangkat Lunak (RPL)</h4>
+                    <p class="text-gray-700 leading-relaxed">Fokus pada pengembangan aplikasi web, mobile, dan desktop. Membekali siswa dengan kemampuan coding, database, dan UI/UX design.</p>
+                    <ul class="list-disc list-inside text-gray-600 mt-4">
+                        <li>Pemrograman Web</li>
+                        <li>Pemrograman Mobile</li>
+                        <li>Basis Data</li>
+                    </ul>
+                </div>
+                <!-- Program Card 3 -->
+                <div class="bg-yellow-50 p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 ease-in-out transform hover:-translate-y-2 border border-yellow-200">
+                    <h4 class="text-2xl font-semibold text-yellow-700 mb-3">Multimedia (MM)</h4>
+                    <p class="text-gray-700 leading-relaxed">Mempelajari desain grafis, animasi, videografi, dan editing. Menyiapkan siswa untuk berkarir di industri kreatif dan produksi media.</p>
+                    <ul class="list-disc list-inside text-gray-600 mt-4">
+                        <li>Desain Grafis</li>
+                        <li>Animasi 2D/3D</li>
+                        <li>Produksi Video</li>
+                    </ul>
+                </div>
+                <!-- Program Card 4 -->
+                <div class="bg-red-50 p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 ease-in-out transform hover:-translate-y-2 border border-red-200">
+                    <h4 class="text-2xl font-semibold text-red-700 mb-3">Akuntansi & Keuangan Lembaga (AKL)</h4>
+                    <p class="text-gray-700 leading-relaxed">Membekali siswa dengan pengetahuan dan keterampilan di bidang akuntansi, keuangan, dan perpajakan untuk berbagai jenis lembaga.</p>
+                    <ul class="list-disc list-inside text-gray-600 mt-4">
+                        <li>Akuntansi Dasar</li>
+                        <li>Perpajakan</li>
+                        <li>Sistem Informasi Akuntansi</li>
+                    </ul>
+                </div>
+                <!-- Program Card 5 -->
+                <div class="bg-purple-50 p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 ease-in-out transform hover:-translate-y-2 border border-purple-200">
+                    <h4 class="text-2xl font-semibold text-purple-700 mb-3">Bisnis Daring & Pemasaran (BDP)</h4>
+                    <p class="text-gray-700 leading-relaxed">Mempelajari strategi pemasaran digital, e-commerce, dan kewirausahaan. Siap menjadi marketer digital atau pengusaha muda.</p>
+                    <ul class="list-disc list-inside text-gray-600 mt-4">
+                        <li>Pemasaran Digital</li>
+                        <li>E-commerce</li>
+                        <li>Kewirausahaan</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Facilities Section -->
+        <section id="fasilitas" class="bg-white rounded-lg shadow-md p-8 mb-12">
+            <h3 class="text-4xl font-bold text-gray-800 mb-8 text-center">Fasilitas Unggulan Kami</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm border border-gray-200 flex flex-col items-center text-center">
+                    <img src="https://placehold.co/150x100/d0d0d0/333333?text=Lab+Komputer" alt="Laboratorium Komputer" class="rounded-md mb-4">
+                    <h4 class="text-2xl font-semibold text-gray-700 mb-2">Laboratorium Komputer Modern</h4>
+                    <p class="text-gray-600">Dilengkapi dengan perangkat keras dan lunak terbaru untuk mendukung pembelajaran TKJ dan RPL.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm border border-gray-200 flex flex-col items-center text-center">
+                    <img src="https://placehold.co/150x100/d0d0d0/333333?text=Studio+Multimedia" alt="Studio Multimedia" class="rounded-md mb-4">
+                    <h4 class="text-2xl font-semibold text-gray-700 mb-2">Studio Multimedia Profesional</h4>
+                    <p class="text-gray-600">Fasilitas lengkap untuk produksi video, audio, dan desain grafis bagi jurusan Multimedia.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm border border-gray-200 flex flex-col items-center text-center">
+                    <img src="https://placehold.co/150x100/d0d0d0/333333?text=Perpustakaan" alt="Perpustakaan" class="rounded-md mb-4">
+                    <h4 class="text-2xl font-semibold text-gray-700 mb-2">Perpustakaan Digital & Fisik</h4>
+                    <p class="text-gray-600">Koleksi buku dan sumber belajar digital yang luas untuk mendukung semua program keahlian.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm border border-gray-200 flex flex-col items-center text-center">
+                    <img src="https://placehold.co/150x100/d0d0d0/333333?text=Bengkel+Otomotif" alt="Bengkel Otomotif" class="rounded-md mb-4">
+                    <h4 class="text-2xl font-semibold text-gray-700 mb-2">Bengkel Otomotif (Contoh)</h4>
+                    <p class="text-gray-600">Fasilitas praktik lengkap untuk jurusan teknik otomotif, jika ada.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- News & Events Section -->
+        <section id="berita" class="bg-white rounded-lg shadow-md p-8 mb-12">
+            <h3 class="text-4xl font-bold text-gray-800 mb-8 text-center">Berita & Acara Terbaru</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- News Card 1 -->
+                <div class="bg-blue-50 p-6 rounded-lg shadow-sm border border-blue-200">
+                    <h4 class="text-2xl font-semibold text-blue-700 mb-2">Workshop Pemrograman Web dengan React JS</h4>
+                    <p class="text-sm text-gray-500 mb-3">20 Juli 2025</p>
+                    <p class="text-gray-700 leading-relaxed">Siswa RPL mengikuti workshop intensif tentang pengembangan aplikasi web modern menggunakan React JS.</p>
+                    <a href="#" class="text-blue-600 hover:underline mt-4 inline-block">Baca Selengkapnya</a>
+                </div>
+                <!-- News Card 2 -->
+                <div class="bg-green-50 p-6 rounded-lg shadow-sm border border-green-200">
+                    <h4 class="text-2xl font-semibold text-green-700 mb-2">Kunjungan Industri ke Perusahaan IT Terkemuka</h4>
+                    <p class="text-sm text-gray-500 mb-3">15 Juli 2025</p>
+                    <p class="text-gray-700 leading-relaxed">Siswa TKJ dan RPL berkesempatan mengunjungi perusahaan teknologi untuk melihat langsung lingkungan kerja profesional.</p>
+                    <a href="#" class="text-green-600 hover:underline mt-4 inline-block">Baca Selengkapnya</a>
+                </div>
+                <!-- News Card 3 -->
+                <div class="bg-yellow-50 p-6 rounded-lg shadow-sm border border-yellow-200">
+                    <h4 class="text-2xl font-semibold text-yellow-700 mb-2">Lomba Desain Grafis Tingkat Sekolah</h4>
+                    <p class="text-sm text-gray-500 mb-3">10 Juli 2025</p>
+                    <p class="text-gray-700 leading-relaxed">Jurusan Multimedia mengadakan lomba desain grafis untuk mengasah kreativitas siswa.</p>
+                    <a href="#" class="text-yellow-600 hover:underline mt-4 inline-block">Baca Selengkapnya</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="kontak" class="bg-white rounded-lg shadow-md p-8 mb-12">
+            <h3 class="text-4xl font-bold text-gray-800 mb-8 text-center">Hubungi Kami</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <p class="text-lg mb-4">Jika Anda memiliki pertanyaan atau ingin informasi lebih lanjut, jangan ragu untuk menghubungi kami melalui formulir di samping atau detail kontak di bawah ini.</p>
+                    <p class="text-lg mb-2"><strong class="font-semibold">Alamat:</strong> Jl. Pendidikan No. 123, Kota Contoh, Provinsi ABC</p>
+                    <p class="text-lg mb-2"><strong class="font-semibold">Telepon:</strong> (021) 1234 5678</p>
+                    <p class="text-lg mb-2"><strong class="font-semibold">Email:</strong> info@smkcontoh.sch.id</p>
+                    <div class="mt-6 flex space-x-4">
+                        <a href="#" class="text-blue-600 hover:text-blue-800 text-3xl transition duration-300"><img src="https://placehold.co/30x30/0000ff/ffffff?text=F" alt="Facebook" class="rounded-full"></a>
+                        <a href="#" class="text-blue-400 hover:text-blue-600 text-3xl transition duration-300"><img src="https://placehold.co/30x30/00acee/ffffff?text=T" alt="Twitter" class="rounded-full"></a>
+                        <a href="#" class="text-pink-600 hover:text-pink-800 text-3xl transition duration-300"><img src="https://placehold.co/30x30/C13584/ffffff?text=I" alt="Instagram" class="rounded-full"></a>
+                    </div>
+                </div>
+                <!-- Contact Form -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm border border-gray-200">
+                    <form>
+                        <div class="mb-4">
+                            <label for="nama" class="block text-gray-700 text-sm font-bold mb-2">Nama Lengkap:</label>
+                            <input type="text" id="nama" name="nama" class="shadow appearance-none border rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Masukkan nama Anda" required>
+                        </div>
+                        <div class="mb-4">
+                            <label for="email" class="block text-gray-700 text-sm font-bold mb-2">Email:</label>
+                            <input type="email" id="email" name="email" class="shadow appearance-none border rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Masukkan email Anda" required>
+                        </div>
+                        <div class="mb-6">
+                            <label for="pesan" class="block text-gray-700 text-sm font-bold mb-2">Pesan Anda:</label>
+                            <textarea id="pesan" name="pesan" rows="5" class="shadow appearance-none border rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Tulis pesan Anda di sini..." required></textarea>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full focus:outline-none focus:shadow-outline transition duration-300 ease-in-out transform hover:-translate-y-1">Kirim Pesan</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white p-6 text-center shadow-inner">
+        <div class="container mx-auto">
+            <p class="text-lg mb-2">&copy; 2025 SMK Muhammadiyah Bojong. Hak Cipta Dilindungi Undang-Undang.</p>
+            <p class="text-md">Dibuat dengan ketulusan hati untuk pendidikan.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
